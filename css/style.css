@@ -33,11 +33,11 @@
 }
 
 #navbar li a:hover,
-#navbar li a.navigator {
+#navbar li a.active {
   color: #088178;
 }
 
-#navbar li a.navigator::after,
+#navbar li a.active::after,
 #navbar li a:hover::after {
   content: "";
   width: 30%;
@@ -64,6 +64,7 @@ img.logo {
 .navigator:not(:first-child) {
   margin-left: 70px;
 }
+
 
 
 /* Home page */
@@ -148,15 +149,13 @@ img.logo {
     top: 253px;
     left: 739px;
     border-radius: 10px;
-    margin: 100px 50px 250px 680px;
+    margin: 100px 50px 250px 580px;
 }
 
 .bordered text {
     width: 561px;
     height: 344px;
     top: 315px;
-    left: 778px;
-
 }
 
 /* #section_container */
@@ -561,6 +560,7 @@ img.logo {
   padding-top: 75px;
   padding-left: 100px;
   text-align: left;
+  cursor: pointer;
 }
 
 .text-left h1 {
@@ -604,6 +604,7 @@ img.logo {
   font-weight: 500px;
   font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
 }
 
 .column li a {
@@ -663,4 +664,5 @@ ul {
   width: 100%;
   height: 24px;
   text-align: center;
+  cursor: pointer;
 }
