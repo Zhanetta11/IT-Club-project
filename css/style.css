@@ -1,70 +1,103 @@
+*{
+  box-sizing: border-box;
+}
+
 /* #header */
-#header {
-  display: flex;
-  align-items: center;
-  padding: 10px 50px;
-  background: white;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-  position: sticky;
-  top: 0;
-  z-index: 1;
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+header {
   width: 100%;
   height: 108px;
+  padding: 0px 105px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  background-color:white ;
+}
+
+.header-details {
+  width: 100%;
+  height: 108px;
+  display: flex;
+  align-items: center;
+  gap: 105px;
+  justify-content: space-between;
+  margin-left: 10px;
+  position: sticky;
 }
 
 #navbar {
   display: flex;
-  align-items: center;
-  padding: 0 50px;
+  justify-content: space-between;
+  width: 50%;
+  height: 24px;
+  font-size: 16px;
+  list-style: none;
+  padding-right: 80px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #000;
 }
 
 #navbar li {
-  list-style: none;
-  padding: 0 30px;
-  position: relative;
+ list-style: none;
+ position: relative;
 }
 
-#navbar li a {
+#navbar-icon {
+  display: flex;
+  height: 24px;
+  font-size: 16px;
+  list-style: none;
+  justify-content: space-between;
+  width: 22%;
+}
+
+#navbar-icon a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #000;
   transition: 0.3s ease;
+  position: relative;
 }
 
-#navbar li a:hover,
-#navbar li a.active {
+.header-logo {
+  width: 43px;
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 96px;
+  margin: 20px 20px 20px 60px;
+  background: linear-gradient(165.1deg, #F31616 8.76%, rgba(65, 26, 223, 0.96) 76.96%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#navbar li:not(.header-logo):hover a,
+#navbar li a.active, #navbar-icon li:hover a{
   color: #088178;
 }
 
-#navbar li a.active::after,
-#navbar li a:hover::after {
+#navbar li:not(.header-logo):hover a::after,
+#navbar li a.active::after {
   content: "";
-  width: 30%;
+  width: 50%;
   height: 2px;
   background: #088178;
   position: absolute;
   bottom: -4px;
-  left: 20px;
+  left: 0px;
 }
-
-img.logo {
-  margin-left: 80px;
-  margin-right: 80px;
-}
-
-.icon-item {
-  margin-right: 20px;
-}
-
-.user-icon {
-  margin-left: 150px;
-}
-
-.navigator:not(:first-child) {
-  margin-left: 70px;
-}
-
 
 
 /* Home page */
@@ -533,7 +566,7 @@ img.logo {
 }
 
 /* #footer */
-#footer {
+#footer1 {
   border: 1px solid #BBCBCA;
   background-color: #BDE9EF;
   width: 100%;
