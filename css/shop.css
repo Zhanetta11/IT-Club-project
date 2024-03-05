@@ -1,3 +1,9 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* #page-name  */
 #page-name {
     background-image: url(../img/background-logo.png);
@@ -12,12 +18,12 @@
     position: relative;
 }
 
-.layout{
+.layout1{
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: #fff;
-  opacity: 70%;
+  opacity: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,4 +211,86 @@ select {
 
 .show1 select {
   padding: 5px 15px;
+}
+
+
+/* product_section_container */
+.button-container {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50px;
+  gap: 38px;
+  color: #000;
+  text-decoration: none;
+}
+
+.first-button, .second-button, .third-button, .next-button {
+  background-color: #E8F9FD;
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.first-button {
+  background-color: #46B6C5;
+  color: white;
+}
+
+.next-button {
+  width: 98px;
+}
+
+
+/* frame161*/
+.frame{
+  display: flex;
+  background-color: #E8F9FD;
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 100px 20px;
+  justify-content: space-between;
+}
+
+.frame_logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.frame svg {
+  margin: 10px 5px;
+}
+
+.frame_info{
+  display: flex;
+  flex-direction: column;
+}
+
+.frame_bold {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37.5px;
+  text-align: left;
+  color: #242424;
+  margin-top: 5px;
+  width: 258px;
+  height: 38px;
+}
+
+.frame_small {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  color: #898989;
+  margin-top: -15px;
+  width: 267px;
+  height: 30px;
 }
