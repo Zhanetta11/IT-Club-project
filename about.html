@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-details">
+          <div class="header-logo">A</div>
+          <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul id="navbar-icon">
+            <li><a href="user-icon.html"><i class="fas fa-user-plus"></i> </a> </li>
+            <li><a href="search-icon.html"><i class="fas fa-search"></i> </a> </li>
+            <li><a href="heart-icon.html"><i class="fas fa-heart"></i> </a> </li>
+            <li><a href="cart-icon.html"><i class="fas fa-shopping-cart"></i> </a> </li>
+          </ul>
+        </div>
+    </header>
+
+
+    <section class="product-details">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#">Asgaard Sofa</a></li>
+            </ul>
+        </nav>
+        <img src="img/about-sofa.png" alt="Asgaard Sofa" class="product-image">
+
+        <div class="product-info">
+            <h1>Sofa</h1>
+            <p class="price">$1,200</p>
+            <div class="rating">
+                <span class="stars">★★★★★</span>
+                <span class="reviews">5 Customer Reviews</span>
+            </div>
+            <p class="description">Setting the bar as one of the loudest speakers in its class...</p>
+            <div class="options">
+                <label for="size">Size:</label>
+                <select id="size">
+                    <option value="XL">XL</option>
+                    <option value="XS">XS</option>
+                </select>
+                <label for="color">Color:</label>
+                <select id="color">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="gray">Gray</option>
+                </select>
+                <input type="number" id="quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="compare">Compare</button>
+            </div>
+        </div>
+        <p>SKU: SS001 | Category: Sofas | Tags: Sofa, Chair, Home Shop</p>
+    </section>
+
+        
+    <section id="product_section_container">
+        <h3>Related Products</h3>
+        <div class="products_cards">
+            <div class="product_card">
+                <img src="../img/about-image1.png" alt="">
+                <div class="card_text">
+                    <div class="card_title">Syltherine</div>
+                    <div class="card_style">Stylish cafe chair</div>
+                    <div class="card_cost">
+                        <div class="cost">$2,500,000</div>
+                        <div class="card_bcost">$3,500,000</div>
+                    </div>
+                </div>
+                <div class="layout"></div>
+                <div class="hover_options">
+                    <div class="to_cart_btn">
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="mut_options">
+                        <div class="option share_option">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
+                            </svg> Share
+                        </div>
+                        <div class="option compare_option">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5m14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5"/>
+                            </svg> Compare
+                        </div>
+                        <div class="option like_option">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                          </svg> Like
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product_card">
+                <img src="../img/about-image2.png" alt="">
+                <div class="card_text">
+                    <div class="card_title">Leviosa</div>
+                    <div class="card_style">Stylish cafe chair</div>
+                    <div class="card_cost">
+                        <div class="cost">$2,500,000</div>
+                        <div class="card_bcost"></div>
+                    </div>
+                </div>
+                <div class="layout"></div>
+                <div class="hover_options">
+                    <div class="to_cart_btn">
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="mut_options">
+                        <div class="option share_option">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
+                            </svg> Share
+                        </div>
+                        <div class="option compare_option">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5m14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5"/>
+                            </svg> Compare
+                        </div>
+                        <div class="option like_option">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                          </svg> Like
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product_card">
+                <img src="../img/about-image3.png" alt="">
+              <div class="card_text">
+                  <div class="card_title">Lolito</div>
+                  <div class="card_style">Luxury big sofa</div>
+                  <div class="card_cost">
+                      <div class="cost">$7,000,000</div>
+                      <div class="card_bcost">$14,000,000</div>
+                  </div>
+              </div>
+              <div class="layout"></div>
+              <div class="hover_options">
+                  <div class="to_cart_btn">
+                      <button>Add to Cart</button>
+                  </div>
+                  <div class="mut_options">
+                      <div class="option share_option">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                              <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
+                          </svg> Share
+                      </div>
+                      <div class="option compare_option">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5m14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5"/>
+                          </svg> Compare
+                      </div>
+                      <div class="option like_option">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                          <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                        </svg> Like
+                      </div>
+                  </div>
+              </div>
+            </div>
+    
+            <div class="product_card">
+                <img src="../img/about-image4.png" alt="">
+              <div class="card_text">
+                <div class="card_title">Respira</div>
+                <div class="card_style">Outdoor bar table and stool</div>
+                <div class="card_cost"> 
+                    <div class="cost">$500.000 </div> 
+                    <div class="card_bcost"></div>
+                </div>
+              </div>
+              <div class="layout"></div>
+              <div class="hover_options">
+                  <div class="to_cart_btn">
+                      <button>Add to Cart</button>
+                  </div>
+                  <div class="mut_options">
+                      <div class="option share_option">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                              <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
+                          </svg> Share
+                      </div>
+                      <div class="option compare_option">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5m14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5"/>
+                          </svg> Compare
+                      </div>
+                      <div class="option like_option">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                          <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                        </svg> Like
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    
+        <div class="show_more">
+          <button>Show More</button>
+        </div>
+    </section>
+    
+    <section id="footer1">
+        <footer>
+            <div class="main-content">
+                <div class="column">
+                  <h1>Ala-Too IT Club</h1>
+                  <h4>Done by University students</h4>
+                </div>
+                <div class="column">
+                  <p>Links</p>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contacts</a></li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <p>Help</p>
+                  <ul>
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Privacy Policies</a></li>
+                  </ul>
+                </div>
+              </div>
+              <hr class="line">
+              <div class="text-bottom">
+                <p>All rights reverved by Ala-Too IT Club</p>
+            </div>
+        </footer>
+      </section>
+</body>
+</html>

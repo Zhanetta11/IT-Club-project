@@ -6,16 +6,16 @@
 
 /* #page-name  */
 #page-name {
-    background-image: url(../img/background-logo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 316px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  background-image: url(../img/background-logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 316px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .layout1{
@@ -50,9 +50,9 @@
 }
 
 .text {
-    width: 121px;
-    height: 24px;
-    margin-left: 10px;
+  width: 121px;
+  height: 24px;
+  margin-left: 10px;
 }
 
 .logo2 {
@@ -77,26 +77,26 @@
 }
 
 .home{
-    width: 48px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    height: 24px;
-    top: 164px;
-    text-decoration: none;
-    list-style: none;
-    color: #000;
+  width: 48px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  height: 24px;
+  top: 164px;
+  text-decoration: none;
+  list-style: none;
+  color: #000;
 }
  
 .shop2{
-    font-weight: 300; 
-    font-size: 16px;
-    line-height: 24px;
-    width: 41px;
-    height: 24px;
-    text-decoration: none;
-    list-style: none;
-    color: #000;
+  font-weight: 300; 
+  font-size: 16px;
+  line-height: 24px;
+  width: 41px;
+  height: 24px;
+  text-decoration: none;
+  list-style: none;
+  color: #000;
 }
 
 #product_section_container {
@@ -252,25 +252,28 @@ select {
 /* frame161*/
 .frame{
   display: flex;
+  align-items: center;
   background-color: #E8F9FD;
   width: 100%;
-  margin-bottom: 0px;
-  padding: 100px 20px;
-  justify-content: space-between;
+  height: 270px;
 }
 
 .frame_logos {
   display: flex;
   justify-content: space-between;
+  padding: 0px 10px;
+  margin-left: 40px;
 }
 
 .frame svg {
-  margin: 10px 5px;
+  width: 60px;
+  height: 60px;
 }
 
 .frame_info{
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
 }
 
 .frame_bold {
@@ -279,18 +282,13 @@ select {
   line-height: 37.5px;
   text-align: left;
   color: #242424;
-  margin-top: 5px;
-  width: 258px;
-  height: 38px;
 }
 
 .frame_small {
+  margin-top: -15px;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   text-align: left;
   color: #898989;
-  margin-top: -15px;
-  width: 267px;
-  height: 30px;
 }
