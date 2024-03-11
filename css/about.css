@@ -225,6 +225,11 @@ button:hover, button:active, button:focus {
     height: 64px;
 }
 
+.compare a{
+    text-decoration: none;
+    color: #000;
+}
+
 
 /* Quantity Buttons */
 input::-webkit-outer-spin-button,

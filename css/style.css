@@ -422,6 +422,11 @@ header {
   height: 16px;
 }
 
+.option a {
+  text-decoration: none;
+  color: white;
+}
+
 .show_more {
   margin-top: 32px;
   display: flex;
