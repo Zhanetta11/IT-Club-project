@@ -294,8 +294,9 @@ header {
 .products_cards {
   margin-top: 32px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap; 
-  gap: 32px;
+  gap: 35px;
 }
 
 .product_card {
@@ -584,7 +585,7 @@ header {
 .pagination {
   position: absolute;
   bottom: 80px;
-  left: 70%;
+  right: 50%;
   transform: translateX(-50%);
   display: flex;
 }
