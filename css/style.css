@@ -450,7 +450,6 @@ header {
   opacity: 0.6; 
 }
 
-
 /* #room designs */
 #room_designs {
   border: 0px;
@@ -472,6 +471,7 @@ header {
   left: 20%;
   transform: translate(-50%, -50%);
   gap: 15px;
+  padding-right: 100px;
 }
 
 #room_designs .bordered_text2 h3 {
@@ -512,6 +512,95 @@ header {
   color: white;
 }
 
+.room-preview {
+  display: flex;
+  justify-content: center;
+}
+
+#roomImage {
+  width: 374.62px;
+  height: 582px;
+  margin-top: -50px;
+  margin-left: 360px;
+  padding-right: 30px;
+}
+
+#thumbnails {
+  width: auto;
+  margin-top: -50px; 
+}
+
+#thumbnails .thumbnail {
+  cursor: pointer;
+}
+
+#thumbnails .thumbnail:hover {
+  opacity: 0.8;
+}
+
+.room-info {
+  position: absolute;
+  bottom: 80px;
+  left: 575px;
+  background-color:#FFFFFFB8;
+  opacity: 90%;
+  padding: 30px 20px;
+  width: 220px;
+  height: 130px;
+}
+
+#roomTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33.6px;
+  color: #000;
+  margin-top: -5px;
+}
+
+#roomName {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #616161;
+}
+
+.arrow-button {
+  position: absolute;
+  transform: translateY(-50%);
+  background-color: rgba(70, 182, 197, 1);
+  color: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+  bottom: 46px;
+}
+
+#nextButton {
+  right: 630px;
+}
+
+.pagination {
+  position: absolute;
+  bottom: 80px;
+  left: 1010px;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #D8D8D8;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.active {
+  background-color: #46B6C5;
+}
 
 /* funiroFurniture */
 .share {
@@ -547,30 +636,23 @@ header {
 }
 
 .images {
-  padding: 20px 90px;
-  margin-bottom: 120px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .images img {
   margin-right: 11px;
+  margin-bottom: 15px;
   object-fit: cover;
 }
 
-.images .layout2 {
-  width: 100%;
-  height: 817px; 
-}
-
-.imgs2 {
-  padding: 12px 80px;
-}
-
-.imgs1 {
-  padding: 12px 100px;
-}
-
-.imgs3 {
-  padding: 12px 400px;
+.imgs1, .imgs2, .imgs3 {
+  display: flex;
+  justify-content: center;
 }
 
 /* #footer */
