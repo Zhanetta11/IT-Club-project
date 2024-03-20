@@ -541,7 +541,7 @@ header {
 .room-info {
   position: absolute;
   bottom: 80px;
-  left: 575px;
+  left: 40%;
   background-color:#FFFFFFB8;
   opacity: 90%;
   padding: 30px 20px;
@@ -578,13 +578,13 @@ header {
 }
 
 #nextButton {
-  right: 630px;
+  right: 42%;
 }
 
 .pagination {
   position: absolute;
   bottom: 80px;
-  left: 1010px;
+  left: 70%;
   transform: translateX(-50%);
   display: flex;
 }
