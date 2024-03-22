@@ -21,9 +21,9 @@ Features
 
 Installation
 1)Clone the repository to your local machine using the following command:
-   git clone https://github.com/your-username/furniture-ecommerce-website.git
+   git clone https://github.com/Zhanetta11/IT-Club-project.git
 2)Navigate into the project directory:
-   cd furniture-ecommerce-website
+   IT-Club-project
 3)Open the project in your preferred code editor.
 
 
