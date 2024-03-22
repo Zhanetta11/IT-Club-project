@@ -34,10 +34,54 @@
             <li><a href="user-icon.html"><i class="fas fa-user-plus"></i> </a> </li>
             <li><a href="search-icon.html"><i class="fas fa-search"></i> </a> </li>
             <li><a href="heart-icon.html"><i class="fas fa-heart"></i> </a> </li>
-            <li><a href="cart-icon.html"><i class="fas fa-shopping-cart"></i> </a> </li>
+            <li><a href="#" id="cartBtn"><i class="fas fa-shopping-cart"></i></a></li>
           </ul>
         </div>
     </header>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Shopping Cart</h2>
+            <span class="close">&times;</span>
+          </div>
+          <div class="modal-body">
+            <div class="cart-item">
+              <img src="img/shop-icon1.png" alt="Asgaard sofa" width="105" height="105">
+              <div class="item-details">
+                <p class="one-product-name">Asgaard sofa</p>
+                <div class="price-info-item">
+                  <p class="one-product-quantity">1</p>
+                  <p class="one-product-time">X</p>
+                  <p class="one-product-price">Rs. 250,000.00</p>
+                </div>  
+              </div>
+              <span class="remove-item">&times;</span>
+            </div>
+            <div class="cart-item">
+              <img src="img/shop-icon2.png" alt="Casaliving Wood" width="108" height="105">
+              <div class="item-details">
+                <p class="one-product-name">Casaliving Wood</p>
+                <div class="price-info-item">
+                  <p class="one-product-quantity">1</p>
+                  <p class="one-product-time">X</p>
+                  <p class="one-product-price">Rs. 270,000.00</p>
+                </div>  
+              </div>
+              <span class="remove-item">&times;</span>
+            </div>
+            <div class="cart-total">
+              <h3>Subtotal</h3>
+              <p>Rs. 520,000.00</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="button">Cart</button>
+            <button class="button">Checkout</button>
+            <button class="button"> <a href="comparison.html">Comparison</a></button>
+          </div>
+        </div>
+    </div>
 
     <section id="page-name">
         <div class="layout1"></div>
@@ -56,7 +100,7 @@
     <section id="product-inform">
         <div class="products-container">
             <div class="go-to-product-page">
-                <h3>Go to Product page for more Products</h3>
+                <h3 class="text-go">Go to Product page for more Products</h3>
                 <p class="view-more">View More</p>
             </div> 
             <div class="product-one">
@@ -459,5 +503,6 @@
               </div>
         </footer>
       </section>
+    <script src="java-script\scripts.js"></script>
 </body>
 </html>
