@@ -351,6 +351,11 @@ header {
     top: 315px;
 }
 
+button a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1) ;
+}
+
 /* #section_container */
 #section_container {
   top: 869px;

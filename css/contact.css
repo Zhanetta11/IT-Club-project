@@ -1,0 +1,151 @@
+
+/*body*/
+.title {
+    display:flex;
+    font-size:36px;
+    font-weight:600;
+    justify-content: center;
+    align-items: center;
+    margin-top:90px;
+}
+
+.touch-info {
+    display: flex;
+    margin-top:10px;
+    font-size:16px;
+    font-weight:400;
+    color:rgb(159, 159, 159);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.detail-info {
+    display: flex;
+    height:300px;
+    width:290px;
+    margin:82px 0 0 210px;
+}
+
+.svg-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.address-svg {
+    margin-top:46.12px;
+}
+
+.phone-svg {
+    margin-top:120px;
+}
+
+.clock-svg {
+    margin-top: 85px;
+}
+
+.details-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+.title-address , .title-mobile , .title-clock {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color:#000;
+    font-weight:500;
+    font-size:24px;
+}
+.title-address {
+    margin:58px 0 0 20px;
+}
+
+.title-mobile {
+    margin:66px 0 0 20px;
+}
+
+.title-clock {
+    margin:42px 0 0 20px;
+}
+
+.infoo {
+    font-size:16px;
+    font-weight:400;
+    margin:10px 0 0 25px;
+    display: flex;
+}
+
+/* yuor info*/
+
+.your-info {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin:14px 0 0 100px;
+    padding:80px 0 0 52px;
+}
+
+.general-info {
+    font-size:16px;
+    font-weight:500;
+    margin-top:30px;
+}
+
+.general-input {
+    width:528.75px;
+    box-sizing: border-box;
+    border: 1px solid rgb(159, 159, 159);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding-left:29.75px;
+    margin-top:22px;
+    font-size:16px;
+    font-weight:400;
+    cursor: pointer;
+}
+
+.inputt {
+    height:75px;
+}
+
+.inputt_two {
+    display:flex;
+    height:120px;
+    align-items: flex-start;
+}
+
+.submit_btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(70, 182, 197);
+    border-radius: 5px;
+    background: rgb(70, 182, 197);
+    width:237px;
+    height:55px;
+    margin-top:30px;
+    color:#fff;
+    font-size:16px;
+    font-weight:400;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.submit_btn:hover {
+    background: green;
+}
+
+.frame {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+  
