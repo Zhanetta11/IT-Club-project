@@ -260,6 +260,7 @@ header {
   color: #000;
 }
 
+
 /* Home page */
 #home_section {
     background: url("../img/background.png");
@@ -349,6 +350,11 @@ header {
     width: 561px;
     height: 344px;
     top: 315px;
+}
+
+button a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1) ;
 }
 
 /* #section_container */

@@ -213,7 +213,7 @@ button:hover, button:active, button:focus {
     gap: 20px;
 }
 
-.add-to-cart, .compare {
+.addToCart, .compare {
     border: 1px solid #000;
     border-radius: 15px;
     padding: 15px 30px;
